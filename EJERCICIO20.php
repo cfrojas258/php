@@ -11,7 +11,7 @@ while ($i <= strlen($palabra) -1)
 
 while ($i <= strlen($palabra) -1)
 {
-    echo"[".substr($palabra,$i.)."]<br>";
+    echo"[".substr($palabra,$i)."]<br>";
     $i++;
 }
 ?>
